@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Parenthesis Checker</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css
+    ">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js
+    ">
+<style>
+    
+    .p{
+        position: absolute;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        background-color: black;
+        padding: 40px;
+        border-radius: 2rem;
+        text-align: center;
+        color: white;
+    }
+
+    .p input{
+        margin: 5px;
+    }
+
+    .p button{
+        font-weight: 800;
+        color: white;
+        border-width: 3px;
+    }
+
+    .p h1{
+        font-size: 20px;
+        margin: 20px;
+    }
+    
+    body{
+        background-image: url(wn.jpg);
+    }
+
+</style>
+</head>
+
+<body>
+        <div class="p">
+            <h1>Parenthesis Checker</h1>
+            <input class="form-control form-control-lg" type="text" id="input" placeholder="Enter Any Expression">
+            
+            <h1 id="o"></h1>
+            
+            <center><button type="button" class="btn btn-outline-primary" onclick="f()">Check Expression</button>
+            </center>
+                </div>
+</body>
+<script src="index.js"></script>
+
+</html>
